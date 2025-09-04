@@ -4,12 +4,16 @@ export interface IUser {
   bio?: string;
   email: string;
   avatarUrl: string;
+  location?: string;
+  nickname?: string;
 }
 
 export interface UpdateUserDto {
   name?: string;
   bio?: string;
   email?: string;
+  location?: string;
+  nickname?: string;
 }
 
 export interface UpdatePasswordDto {
